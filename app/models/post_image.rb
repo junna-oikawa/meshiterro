@@ -1,3 +1,4 @@
 class PostImage < ApplicationRecord
-  belongsto :user
+  belongs_to :user
+  attachment :image
 end
